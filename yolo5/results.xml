@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="0" skipped="0" tests="1" time="3.007" timestamp="2023-07-04T19:44:06.214553" hostname="DESKTOP-2BB5MIL"><testcase classname="" name="tests.test_allowed_file" time="0.000"><error message="collection failure">ImportError while importing test module 'C:\Users\Gayatri Mehta\ImgDetect-using-docker\yolo5\tests\test_allowed_file.py'.
-Hint: make sure your test modules/packages have valid Python names.
-Traceback:
-C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\importlib\__init__.py:127: in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-tests\test_allowed_file.py:2: in &lt;module&gt;
-    from app import allowed_file, ALLOWED_EXTENSIONS
-app.py:5: in &lt;module&gt;
-    from detect import run
-E   ImportError: cannot import name 'run' from 'detect' (C:\Users\Gayatri Mehta\ImgDetect-using-docker\venv\lib\site-packages\detect\__init__.py)</error></testcase></testsuite></testsuites>
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="2" time="0.085" timestamp="2023-07-04T20:04:35.818670" hostname="DESKTOP-2BB5MIL"><testcase classname="tests.test_allowed_file.TestBacklogPerInstanceMetric" name="test_invalid_filename" time="0.003" /><testcase classname="tests.test_allowed_file.TestBacklogPerInstanceMetric" name="test_valid_filename" time="0.002" /></testsuite></testsuites>
