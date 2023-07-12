@@ -1,11 +1,6 @@
 pipeline {
-
     agent any
-
-
-
     stages {
-
         stage('Authentication and docker login') {
 
             steps {
@@ -18,8 +13,6 @@ pipeline {
             }
 
         }
-
-
 
         stage('Build') {
 
@@ -34,8 +27,6 @@ pipeline {
             }
 
         }
-
-
 
         stage('Push to ECR') {
 

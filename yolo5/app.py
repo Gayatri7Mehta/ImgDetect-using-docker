@@ -20,7 +20,7 @@ bucket_name = config['img_bucket']
 with open("data/coco128.yaml", "r") as stream:
     names = yaml.safe_load(stream)['names']
 
-logger.info(f'yolo5 is up, supported classes are:\n\n{names}')
+logger.info(f'yolo5 is starting, supported classes are:\n\n{names}')
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
 logger.info(f'supported files are: {ALLOWED_EXTENSIONS}')
