@@ -65,7 +65,7 @@ def recent():
     if doc:
         return render_template('result.html', filename=f'data/{doc["filename"]}', summary=doc['summary'], detections=doc['detections'])
 
-    return render_template('result.html', filename='', summary='No recent detection found', detections={})
+    return render_template('result.html', filename='', summary='No recent detections found', detections={})
 
 
 if __name__ == "__main__":
